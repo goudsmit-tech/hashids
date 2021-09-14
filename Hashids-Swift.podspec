@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "11.0"
   s.swift_versions = '5.0'
 
-  s.source_files  = "*.swift"
+  s.source_files  = "Sources/Hashids/*.swift"
   s.exclude_files = "*Tests.swift"
 
   s.requires_arc  = true
