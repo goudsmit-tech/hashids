@@ -30,3 +30,6 @@ DerivedData
 #
 Pods/
 Podfile.lock
+
+# Swift Package Manager
+.build/

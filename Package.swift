@@ -23,7 +23,8 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "HashidsTests",
-            dependencies: ["Hashids"]),
+            dependencies: ["Hashids"],
+            exclude: ["Info.plist"]),
     ],
     swiftLanguageVersions: [.v5]
 )
